@@ -1,4 +1,8 @@
-const link = document.querySelector('select').addEventListener('change', function () {
+const link = document.querySelector('link')
+
+        link.href = 'https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css'
+
+document.querySelector('select').addEventListener('change', function () {
 
             switch (this.value) {
                 case 'bulma':
